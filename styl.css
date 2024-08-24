@@ -1,0 +1,150 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #f0f0f0;
+    background-color: #141414; /* Dark background similar to Netflix */
+}
+
+/* Header styling */
+header {
+    background-color: #000; /* Dark header background */
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.banner-image {
+    max-width: 100%;
+    height: auto;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section styling */
+section {
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #222; /* Slightly lighter dark background */
+}
+
+h2 {
+    color: #e50914; /* Netflix red for headers */
+}
+
+/* Question items styling */
+#questions-container .question-item {
+    border: 1px solid #333;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #333;
+}
+
+#question-details {
+    padding: 20px;
+    background-color: #222;
+    border: 1px solid #333;
+    margin-top: 20px;
+}
+
+#question-content h3 {
+    color: #e50914; /* Netflix red for question titles */
+}
+
+/* Question form styling */
+#question-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #ddd;
+}
+
+#question-form input,
+#question-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+}
+
+#question-form button {
+    background-color: #e50914; /* Netflix red for button */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#question-form button:hover {
+    background-color: #b81d24; /* Darker red on hover */
+}
+
+/* Style for the download link */
+.download-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #e50914; /* Netflix red for download link */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.download-link:hover {
+    background-color: #b81d24; /* Darker red on hover */
+}
+
+/* Style for the Indian flag */
+.indian-flag {
+    width: 50px;
+    height: auto;
+}
+
+/* Footer styling */
+footer {
+    background-color: #000; /* Dark footer background */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer img {
+    margin-top: 10px;
+}
